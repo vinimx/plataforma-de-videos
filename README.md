@@ -1,6 +1,6 @@
 # plataforma-de-videos
 
-Uma plataforma de uploads de vídeos com recurso de busca e utilizando um servidor local criado com json-server.
+Uma plataforma de uploads de vídeos com recurso de busca utilizando um servidor local criado com json-server.
 
 ![banner](https://user-images.githubusercontent.com/42097591/223419183-528c8fee-b8ab-44a5-8fb6-80852b1f4892.png)
 ![CONCLUIDO](https://user-images.githubusercontent.com/42097591/223419185-bfe6f6f0-a679-4798-b604-5df8214c3342.png)

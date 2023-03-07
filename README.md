@@ -6,7 +6,7 @@ Uma plataforma de uploads de vídeos com recurso de busca e utilizando um servid
 ![CONCLUIDO](https://user-images.githubusercontent.com/42097591/223419185-bfe6f6f0-a679-4798-b604-5df8214c3342.png)
 ![FORM](https://user-images.githubusercontent.com/42097591/223419188-5946e5d6-3b1d-42dc-9c0e-b53c6bba284f.png)
 ##
-Desenvolvida utilizando: JavaScript, NodeJS, Json-server, HTML e CSS.
+Desenvolvido utilizando: JavaScript, NodeJS, Json-server, HTML e CSS.
 ##
 Obs: Como o servidor é local, se for realizado o deploy do código os dados não serão mantidos, então a lista ficará vazia.
 ##

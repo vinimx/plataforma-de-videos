@@ -1,0 +1,119 @@
+*,
+*::before,
+*::after {
+    --azul-escuro: #143F6B;
+    --azul-medio: #3970BE;
+    --cinza: #2C3639;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    background-color: var(--cinza);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    font-size: 14px;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* ESTILOS DO HEADER */
+
+.cabecalho {
+    background-color: var(--azul-escuro);
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    padding: 0 25px;
+    z-index: 2;
+}
+
+.logo {
+    padding: 15px 65px;
+    cursor: pointer;
+    color: #FEB139;
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+
+
+.cabecalho__videos {
+    background-image: url(../img/cabecalho/video-camera.png);
+    background-color: #FEB139;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+}
+
+/* ESTILOS DA SEÇÃO VÍDEOS */
+
+.videos__container {
+    color: black;
+}
+
+.mensagem {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.mensagem__imagem {
+    width: 30%;
+}
+
+.mensagem__titulo {
+    color: #F55353;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.pesquisar__input {
+    width: 260px;
+    height: 32px;
+    border: 1px solid #F55353;
+    border-radius: 10px;
+    background: transparent;
+    font-size: 16px;
+    padding: 3px 8px;
+    color: var(--azul-escuro);
+}
+
+.pesquisar__input:active{
+    box-shadow: 2px 2px 15px #F55353 inset;
+}
+
+.pesquisar__botao {
+    background-image: url(../img/cabecalho/search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #F55353;
+    border-radius: 10px;
+    background-color: #FEB139;
+    padding: 15px 15px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.pesquisar__botao:active{
+    box-shadow: 2px 2px 15px #FEB139 inset;
+}
+
+.cabecalho__pesquisar {
+    display: flex;
+    justify-content: center;
+}
+
+@media(min-width: 834px) {
+
+    body {
+        height: 100vh;
+    }
+
+}
